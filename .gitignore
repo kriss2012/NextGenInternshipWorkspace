@@ -1,0 +1,17 @@
+# Binaries and compiled class files
+*.class
+bin/
+*/bin/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
