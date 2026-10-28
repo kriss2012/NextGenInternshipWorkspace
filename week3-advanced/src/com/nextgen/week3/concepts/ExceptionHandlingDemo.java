@@ -55,6 +55,8 @@ public class ExceptionHandlingDemo {
             processOrder("LAPTOP-01", -5, 10);
         } catch (IllegalArgumentException e) {
             System.out.println("[Unchecked Exception Caught]: " + e.getMessage());
+        } catch (InsufficientInventoryException e) {
+            System.out.println("[Inventory Exception Caught]: " + e.getMessage());
         }
 
         // 2. Handling Checked Custom Exception
